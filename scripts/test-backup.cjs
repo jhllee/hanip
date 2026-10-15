@@ -23,9 +23,9 @@ test('백업: 다른 URL의 id 충돌 재발급, 파일 안 중복 및 콘텐츠
 test('백업: 빈 백업은 유효하고 pending은 재시도 가능한 실패 상태로 복원',()=>{
   assert.deepEqual(backup.parseBackup(file([])),[]);assert.equal(backup.parseBackup(file([b('a',{metadataStatus:'pending'})]))[0].metadataStatus,'failed');
 });
-test('샘플: 7개, 고유 URL, 이미지 있음/없음/메타데이터 실패 포함',()=>{
-  const items=samples.sampleBookmarks();assert.equal(items.length,7);assert.equal(new Set(items.map(i=>i.normalizedUrl)).size,7);
-  assert.ok(items.some(i=>i.ogImageUrl));assert.ok(items.some(i=>!i.ogImageUrl));assert.ok(items.some(i=>i.metadataStatus==='failed'));
+test('샘플: 8개, 고유 URL, 실존 아티클 및 이미지 포함',()=>{
+  const items=samples.sampleBookmarks();assert.equal(items.length,8);assert.equal(new Set(items.map(i=>i.normalizedUrl)).size,8);
+  assert.ok(items.every(i=>i.ogImageUrl));assert.ok(items.every(i=>i.metadataStatus==='ready'));
   assert.equal(backup.mergeBackup(items,samples.sampleBookmarks(),()=> 'fresh').added,0);
 });
 function setup(){const entries=new Map();global.localStorage={getItem:k=>entries.get(k)??null,setItem:(k,v)=>entries.set(k,v),removeItem:k=>entries.delete(k)};const source=loader();const library=source('src/store/library.ts').useLibrary;return {library,...source('src/store/notifications.ts')};}
