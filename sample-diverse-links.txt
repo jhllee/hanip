@@ -1,0 +1,28 @@
+# [한입(hanip) 다양한 주제별 아티클 샘플 모음]
+# 기획/PM, 디자인/UX, 일과 생활/커리어, 문화/생각 등 비개발 분야 실존 아티클 모음입니다.
+# 링크를 복사하여 한입 서비스 상단의 [글 저장]에 붙여넣어 서재를 풍성하게 채워보세요!
+
+# --- [기획 / PM / 비즈니스] ---
+https://yozm.wishket.com/magazine/detail/2200/
+https://yozm.wishket.com/magazine/detail/2140/
+https://yozm.wishket.com/magazine/detail/2090/
+https://yozm.wishket.com/magazine/detail/1890/
+https://yozm.wishket.com/magazine/detail/1770/
+
+# --- [디자인 / UX / 인터랙션] ---
+https://yozm.wishket.com/magazine/detail/2020/
+https://yozm.wishket.com/magazine/detail/2000/
+https://yozm.wishket.com/magazine/detail/1860/
+https://yozm.wishket.com/magazine/detail/1680/
+https://yozm.wishket.com/magazine/detail/1560/
+
+# --- [일과 생활 / 커리어 / 협업 / 워크라이프] ---
+https://yozm.wishket.com/magazine/detail/2150/
+https://yozm.wishket.com/magazine/detail/2080/
+https://yozm.wishket.com/magazine/detail/1940/
+https://yozm.wishket.com/magazine/detail/1820/
+
+# --- [문화 / 생각 / 브랜드 / 라이프스타일] ---
+https://yozm.wishket.com/magazine/detail/1920/
+https://yozm.wishket.com/magazine/detail/1720/
+https://yozm.wishket.com/magazine/detail/1620/
